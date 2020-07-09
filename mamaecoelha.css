@@ -1,0 +1,401 @@
+
+/* Home */
+
+home_1 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    }
+    
+/* Menu superior */
+Menu_superior{
+
+position: absolute;
+width: 1439px;
+height: 151px;
+left: 1px;
+top: 0px;
+
+background: url(depositphotos_2001470-stock-photo-tablecloth-texture-checked-fabric.jpg);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.text{
+ font-family: 'Swanky and Moo Moo';
+   text-decoration: none;
+   vertical-align: middle;}
+  
+   .text1{font-size: 14px;}
+
+/* Mamãe Coelha */
+
+
+Texto_frente{
+position: absolute;
+width: 220px;
+height: 625px;
+left: 300px;
+top: 250px;
+padding: 25px;
+font-family: 'Swanky and Moo Moo';
+text-decoration: none;
+text-align: left;
+font-size: 12px;
+vertical-align: middle;
+background: #FFFDFD;
+}
+Texto_botton{
+position: absolute;
+width: 450px;
+height:180px;
+left: 600px;
+top: 700px;
+padding: 25px;
+font-family: 'Swanky and Moo Moo';
+text-decoration: none;
+text-align: left;
+font-size: 18px;
+color: #ee7575;
+vertical-align: middle;
+background: #FFFDFD;
+  
+}
+
+
+
+
+
+titulo{
+
+    position: absolute;
+    left: 10.76%;
+    right: 56.94%;
+    top: 3.61%;
+    bottom: 88.57%;
+    
+    font-family: Swanky and Moo Moo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 106px;
+    
+    color: #A41919;
+    
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+titulo2{
+
+   position: absolute;
+   left: 300px;
+   top: 150px;
+  
+      
+   font-family: Swanky and Moo Moo;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 106px;
+   color: #ff7300;     
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+/* Foto Mariana */
+
+Foto_Mariana{
+
+position: absolute;
+width: 188px;
+height: 151px;
+left: 634px;
+top: 0px;
+
+background: url(mariana.jpg);
+border-radius: 77px;
+}
+    /* Rectangle 4 */
+
+Rectangle_4 {
+position: absolute;
+width: 1161px;
+height: 873px;
+left: 279px;
+top: 151px;
+
+background: rgba(247, 222, 231, 0.71);
+}
+
+
+/* Menu Lateral */
+menu_lateral {
+
+position: absolute;
+width: 280px;
+height: 873px;
+left: 1px;
+top: 153px;
+
+background: rgba(197, 235, 253, 0.8);
+}
+
+/* Definições Botões */
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Swanky and Moo Moo';
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+    
+/*Quem Somos*/
+.button-1
+{position: absolute;
+    width: 252px;
+    height: 58px;
+    left: 15px;
+    top: 50px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Swanky and Moo Moo';
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button-1:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button-1:active {
+    border-top-color: #1b435e;
+    background: #1b435e;}
+
+/* Compre o seu */
+.button-2
+{position: absolute;
+    width: 252px;
+    height: 58px;
+    left: 15px;
+    top:160px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Swanky and Moo Moo';
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button-2:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button-2:active {
+    border-top-color: #1b435e;
+    background: #1b435e;}
+
+/* Acessórios */
+.button-3
+{position: absolute;
+    width: 252px;
+    height: 58px;
+    left: 15px;
+    top: 272px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Swanky and Moo Moo';
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button-3:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button-3:active {
+    border-top-color: #1b435e;
+    background: #1b435e;}
+  
+/* Fashion Pet */
+.button-4
+{position: absolute;
+    width: 252px;
+    height: 58px;
+    left: 15px;
+    top: 384px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Swanky and Moo Moo';
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button-4:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button-4:active {
+    border-top-color: #1b435e;
+    background: #1b435e;}
+
+    /*  Fale conosco */
+.button-5
+{position: absolute;
+    width: 252px;
+    height: 58px;
+    left: 15px;
+    top: 496px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Swanky and Moo Moo';
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button-5:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button-5:active {
+    border-top-color: #1b435e;
+    background: #1b435e;}
+
+
+    .relative1 {
+      position: relative;
+    }
+    .relative2 {
+      position: relative;
+      top: 200;
+      left: 500px;
+      background-color: white;
+      width: 500px;
+    }
+
+    .button-6
+    {position: absolute;
+      width: 115px;
+      height: 48px;
+      left: 1254px;
+      top: 600px;
+        border-top: 1px solid #96d1f8;
+        background: #db80bd;
+        background: -webkit-linear-gradient(top, #db80bd, #581239);
+        background: -moz-linear-gradient(top,  #db80bd, #581239);
+        background: -ms-linear-gradient(top, #db80bd, #581239);
+        background: -o-linear-gradient(top,  #db80bd, #581239);
+        padding: 11.5px 23px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: rgba(0,0,0,.4) 0 1px 0;
+        color: black;
+        font-size: 18px;
+        font-family: 'Swanky and Moo Moo';
+        text-decoration: none;
+        vertical-align: middle;
+        }
+     .button-6:hover {
+        border-top-color: #28597a;
+        background: #28597a;
+        color: #ccc;
+        }
+     .button-6:active {
+        border-top-color: #1b435e;
+        background: #1b435e;}
+    

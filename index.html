@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+<title>Mamãe coelha</title>
+<link href = "mamaecoelha.css" rel = "stylesheet" type="text/css"/>
+		</head>
+	<home_1>
+        <menu_superior>
+            <titulo>Mamãe Coelha</titulo>
+            <Foto_Mariana></Foto_Mariana>
+           
+            <input type = "image" src = "Facebook.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:1000px;top:15px;"> 
+           
+            <text class="text text1" 
+            style=position:absolute;left:1035px;top:20px;>Facebook</text>
+      
+            <input type = "image" src = "Whatsapp.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:1000px;top:45px;">
+
+            <text class="text text1" 
+            style=position:absolute;left:1035px;top:50px;>Whatsapp</text>
+
+            <input type = "image" src = "Instagram.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:1000px;top:75px;">
+
+            <text class="text text1" 
+            style=position:absolute;left:1035px;top:80px;>Instagram</text>
+
+            <input type = "image" src = "Youtube.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:1000px;top:105px;">
+            
+            <text class="text text1" 
+            style=position:absolute;left:1035px;top:110px;>Youtube</text>
+      
+      
+      
+        </menu_superior>
+        
+        <Rectangle_4>
+
+        </Rectangle_4>
+              
+        <menu_lateral>  
+        
+           
+           <button class="botton button-1" onclick=" window.open('page1.html','_blank')">Quem Somos</button>
+        
+           <button class="botton button-2"  onclick=" window.open('page2.html','_blank')">Compre o Seu</button>
+
+           <button class="botton button-3"  onclick=" window.open('page3.html','_blank')">Acessórios</button>
+
+           <button class="botton button-4"  onclick=" window.open('page4.html','_blank')">Fashion Pet</button>
+           
+           <button class="botton button-5"  onclick=" window.open('page5.html','_blank')">Fale Conosco</button>
+
+           <input type = "image" src = "Facebook.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:30px;top:600px;"> 
+           
+            <text class="text text1" 
+            style=position:absolute;left:65px;top:605px;>Facebook</text>
+      
+            <input type = "image" src = "Whatsapp.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:30px;top:635px;">
+
+            <text class="text text1" 
+            style=position:absolute;left:65px;top:640px;>Whatsapp</text>
+
+            <input type = "image" src = "Instagram.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:30px;top:670px;">
+
+            <text class="text text1" 
+            style=position:absolute;left:65px;top:675px;>Instagram</text>
+
+            <input type = "image" src = "Youtube.ico" 
+            width="30px" height="30px" 
+            style = "position:absolute;left:30px;top:705px;">
+            
+            <text class="text text1" 
+            style=position:absolute;left:65px;top:710px;>Youtube</text>
+          
+          
+            
+        </menu_lateral> 
+       
+        <titulo2>Bem vindo ao Sítio da Mamãe Coelha</titulo2>
+        <body>
+
+            <h2 class="w3-center">Automatic Slideshow</h2>
+            
+            <div class= "w3-content w3-section" style="max-width:500px; position:absolute; top:250px; left: 600px">
+              <img class="mySlides" src="coelhos1.jpg" style="width:100%">
+              <img class="mySlides" src="coelhos2.jpg" style="width:100%">
+              <img class="mySlides" src="coelhos3.jpg" style="width:100%">
+              <img class="mySlides" src="coelhos4.jpg" style="width:100%">
+            </div>
+            
+            <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+    <texto_frente>Nosso negócio é sobre o oryctolagus cuniculus.
+         Não se assuste! Ele não é nenhum animal raro, muito pelo
+         contrário, estamos nos referindo aos coelhos.
+         Esses simpáticos animaizinhos se tornaram, nos últimos anos,
+         um dos nossos animais de estimação favoritos, devido ao seu 
+         tamanho e por não necessitarem de muitos cuidados.
+         Este animal precisa de nossa atenção, amor, carinho e são 
+         excelentes companheiros para nossos filhos. Se você já tem um 
+         coelho, com certeza já reparou como eles são carinhosos e
+         brincalhões.</texto_frente>          
+    
+    <texto_botton>Saiba Mais acessando nossas redes Sociais, os sites
+        dos nossos parceiros e nos visitando pessoalmente. Agenge a sua 
+        Visita</texto_botton>
+        
+        
+    </body>
+ </home_1>
+</html>
